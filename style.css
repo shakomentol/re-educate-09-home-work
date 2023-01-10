@@ -12,7 +12,6 @@ body {
 header {
     width: 7%;
     background-color: #FFC297;
-    border: 2px solid black;
 }
 header:hover {
     border: 2px solid  rgb(0, 140, 255);
