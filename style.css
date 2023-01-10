@@ -68,7 +68,6 @@ ul li img {
 }
 .second-section {
     width: 65%;
-    /* height: 70%; */
 }
 .section-title {
     display: flex;
@@ -100,8 +99,7 @@ ul li img {
     border-color:  rgb(0, 140, 255);
 }
 .first-name label {
-    width: 100%;
-    height: 100%;
+    font-weight: bold;
 }
 .last-name {
     width: 30%;
@@ -118,6 +116,7 @@ ul li img {
 .last-name label {
     width: 100%;
     height: 100%;
+    font-weight: bold;
 }
 .email-block {
     width: 70%;
@@ -132,9 +131,7 @@ ul li img {
     border-color:  rgb(0, 140, 255);
 }
 .email-block label {
-    width: 100%;
-    height: 100%;
-    position: relative;
+    font-weight: bold;
 }
 .address-block {
     width: 70%;
@@ -148,8 +145,8 @@ ul li img {
    border-radius: 3px;
    border-color: rgb(0, 140, 255);
 }
-.address-block input {
-    width: 100%;
+.address-block label {
+    font-weight: bold;
 }
 .contact-block {
     width: 70%;
@@ -162,11 +159,9 @@ ul li img {
     height: 40px;
     border-radius: 3px;
     border-color:  rgb(0, 140, 255);
-
 }
 .contact-block label {
-    width: 100%;
-    height: 100%;
+    font-weight: bold;
 }
 .city-state-block {
     display: flex;
@@ -183,6 +178,9 @@ ul li img {
     border-radius: 3px;
     border-color:  rgb(0, 140, 255);
 }
+.city label {
+    font-weight: bold;
+}
 .state {
     width: 30%;
     margin-left: 10%;
@@ -195,6 +193,9 @@ ul li img {
     border-radius: 3px;
     border-color:  rgb(0, 140, 255);
 }
+.state label {
+    font-weight: bold;
+}
 .password-block {
     width: 70%;
     height: 50px;
@@ -206,6 +207,9 @@ ul li img {
     height: 40px;
     border-radius: 3px;
     border-color:  rgb(0, 140, 255);
+}
+.password-block label {
+    font-weight: bold;
 }
 .button-block {
     display: flex;
