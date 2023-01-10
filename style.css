@@ -37,6 +37,7 @@ nav ul li p:hover {
 .apperance-img {
     background-color: black;
     border-radius: 50%;
+    padding: 1.5%;
 }
 .settings-fotos-wrapper {
     width: 50px;
