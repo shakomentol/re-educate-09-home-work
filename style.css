@@ -7,12 +7,10 @@
 body {
     display: flex;
     width: 100%;
-    height: 100%;
     background-color: #F7F7F7;
 }
 header {
     width: 7%;
-    height: 100%;
     background-color: #FFC297;
 }
 .nav-logo {
@@ -33,7 +31,7 @@ ul li img {
     width: 50px;
     height: 50px;
     background-color: #FF7008;
-    margin-top: 150px;
+    margin-top: 250px;
     margin-left: 15px;
     border-radius: 50%;
 }
@@ -42,7 +40,6 @@ ul li img {
     height: 30px;
     margin-left: 11px;
     margin-top: 10px;
-
 }
 .settings-block {
     display: flex;
@@ -60,15 +57,14 @@ ul li img {
 }
 .settings-block ul li {
     display: flex;
-    margin-top: 50px;
-    
+    margin-top: 50px;  
 }
 .settings-block ul li p {
     margin-left: 15px;
 }
 .second-section {
     width: 65%;
-    height: 100%;
+    /* height: 70%; */
 }
 .section-title {
     display: flex;
@@ -129,13 +125,7 @@ ul li img {
 .email-block label {
     width: 100%;
     height: 100%;
-}
-.email-foto {
-    width: 30px;
-    height: 30px;
-    background-color:green;
-    margin-left: 90%;
-    margin-top: -5%;
+    position: relative;
 }
 .address-block {
     width: 70%;
@@ -236,7 +226,6 @@ ul li img {
 }
 .third-section {
     width: 7%;
-    height: 100%;
 }
 .bell-foto {
     width: 20px;
